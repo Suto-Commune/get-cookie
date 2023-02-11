@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
    
-    "name": "Js implants",
-    "description": "在网页中植入写好的js",
+    "name": "cookie geter",
+    "description": "植入获取cookiejs",
     "version": "1.0",
    
     "icons": {
