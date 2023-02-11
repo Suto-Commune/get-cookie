@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+   
+    "name": "Js implants",
+    "description": "在网页中植入写好的js",
+    "version": "1.0",
+   
+    "icons": {
+      "128" : "icon.png"
+    },
+    "permissions": [
+      "tabs"
+    ],
+    "content_scripts": [
+      {"js":["coooookie.js"],"matches":["<all_urls>"]}
+    ]
+  }
